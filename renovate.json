@@ -1,0 +1,10 @@
+{
+  "extends": ["config:base"],
+  "docker": {
+    "fileMatch": [
+      "(^|/)Earthfile$",
+      "(^|/|\\.)Dockerfile$",
+      "(^|/)Dockerfile[^/]*$"
+    ]
+  }
+}
